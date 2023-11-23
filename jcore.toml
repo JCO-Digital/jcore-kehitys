@@ -1,0 +1,4 @@
+projectName = "kehitys"
+localDomain = "kehitys.localhost"
+domains = [ "kehitys.localhost" ]
+theme = "kehitys"
