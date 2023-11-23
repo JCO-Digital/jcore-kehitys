@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/ilme"]
+	path = wp-content/themes/ilme
+	url = git@github.com:JCO-Digital/jcore-ilme.git
