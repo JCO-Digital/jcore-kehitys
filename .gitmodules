@@ -1,3 +1,8 @@
 [submodule "wp-content/themes/ilme"]
 	path = wp-content/themes/ilme
 	url = git@github.com:JCO-Digital/jcore-ilme.git
+	branch = main
+[submodule "modules/jcore-ydin"]
+	path = modules/jcore-ydin
+	url = git@github-work:/jco-digital/jcore-ydin.git
+	branch = main
