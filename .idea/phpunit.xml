@@ -4,6 +4,7 @@
     <option name="directories">
       <list>
         <option value="$PROJECT_DIR$/tests" />
+        <option value="$PROJECT_DIR$/.jcore/wordpress/wp-includes/sodium_compat/tests" />
       </list>
     </option>
   </component>

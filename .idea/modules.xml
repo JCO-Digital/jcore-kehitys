@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/jcore-kehitys.iml" filepath="$PROJECT_DIR$/.idea/jcore-kehitys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/kehitys.iml" filepath="$PROJECT_DIR$/.idea/kehitys.iml" />
     </modules>
   </component>
+</project>

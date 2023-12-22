@@ -55,6 +55,18 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/php-stubs/wordpress-stubs" />
       <path value="$PROJECT_DIR$/vendor/wikimedia/composer-merge-plugin" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/phpcsstandards/phpcsutils" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/phpcsstandards/phpcsextra" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/php-stubs/wordpress-stubs" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/timber/timber" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/wp-coding-standards/wpcs" />
+      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/composer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
