@@ -17,6 +17,7 @@ jobs:
         run: make
 
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Install SSH Key
