@@ -27,7 +27,9 @@ jobs:
           known_hosts: "just-a-placeholder-so-we-dont-get-errors"
 
       - name: Adding Known Hosts
-        run: ssh-keyscan -H kehitys@kehitys.ssh.wpengine.net >> ~/.ssh/known_hosts
+        run:
+          - printf "StrictHostKeyChecking no\n" > "$home/.ssh/config"
+          - chmod 0700 "$home/.ssh/config"
 
       - name: Deploy Vendor
         run: rsync -avz ./vendor kehitys@kehitys.ssh.wpengine.net:/sites/kehitys/vendor
