@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,10 +16,6 @@ jobs:
       - name: Make
         run: make
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2
         with:
@@ -27,4 +23,4 @@ jobs:
           known_hosts: "kehitys.ssh.wpengine.net ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDTbMliVDtORwqyYLhC9aRqtY/r6CTfTZc5FMua/HStjJ32UauebHaeEKFBFhMxDLEM0svPeu94O2+T1S4N6UXpm403fiZ2wy8SAA/VpePhKJZmRv5vTwErisPR3Da0iVt1uNFxjDswmezGiAiHNUF58qLZFdoMtpO4oZbZeA6ACid0FbPVE+ZTfICIdrSQELC6V7KBnKYLSO7W5bRGw5MfN3L36uSoYhbzPk5y0kSpL8H/W2rKSHFwVM5lLaHtPIufTVsXgBdCZhsqn1clmfDymgDN7KGfhhE7hlwMwCIU5htn1qkpiVW2iz2TDQ2gnyHYMF5/mamT50UT2KVt8EHD4mxvJqeL0DYqLOuoc+Vphcvja0xK/JLxwiC6N8JwAuIGsXQkJiD/CTdgWqYEWzT0V7xhSYKm5+X6Jdk2V477pq75M08VTr/xU/D+eBvAFe+EGssYWWpsfG5zvExUQGNsuBMFXK3hq4Kp/7+7JLY4MdSZDHE1hlRzAMJKvChkdV+y4/8w1jml4+GCl09X6ZIK7wgoAYSS3wZmVWRXEghKH5R2yr/qBRR8u2aKrw1hlJ0KVRJd6GzU7cgvHcSePXesndSfV1w6DLTnn7k23t4oxBoAZMRFYr7PR9QQ8fFtU33ylHNK5PREDvtQEvMizF0UISNLNlhYPOk3EFdSYxsgSQ=="
 
       - name: Deploy Theme
-        run: rsync -avz ./wp-content/themes/ilme kehitys@kehitys.ssh.wpengine.net:/sites/kehitys/wp-contents/themes/ilme/
+        run: rsync -rlci --delete wp-content/themes/ilme kehitys@kehitys.ssh.wpengine.net:/sites/kehitys/wp-contents/themes/ilme/
