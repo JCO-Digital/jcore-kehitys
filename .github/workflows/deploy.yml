@@ -11,5 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: "npm"
+
       - name: Make
         run: make
