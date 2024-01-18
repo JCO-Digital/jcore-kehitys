@@ -25,5 +25,8 @@ jobs:
       - name: Deploy Vendor
         run: rsync -rlci --delete vendor kehitys@kehitys.ssh.wpengine.net:/sites/kehitys/vendor/
 
+      - name: Deploy Modules
+        run: rsync -rlci --delete modules kehitys@kehitys.ssh.wpengine.net:/sites/kehitys/modules/
+
       - name: Deploy Theme
         run: rsync -rlci --delete --exclude=node_modules wp-content/themes/ilme kehitys@kehitys.ssh.wpengine.net:/sites/kehitys/wp-content/themes/ilme/
