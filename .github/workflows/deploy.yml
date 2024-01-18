@@ -1,0 +1,9 @@
+name: Deploy site
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: php-actions/composer@v6
+        with:
+          command: make
