@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
-  <component name="NewModuleRootManager">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/.jcore/wordpress/wp-includes" isTestSource="false" packagePrefix="PHPMailer" />
       <sourceFolder url="file://$MODULE_DIR$/.jcore/wordpress/wp-includes/sodium_compat/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/modules/jcore-ydin/classes" isTestSource="false" packagePrefix="Jcore\Ydin\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/jcore-ydin/tests" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="2756c351-0c47-4afa-8824-5ec0fcc6bfb5" />
   </component>
 </module>
