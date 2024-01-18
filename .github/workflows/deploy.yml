@@ -1,0 +1,15 @@
+name: Deploy site
+
+on:
+  push:
+    branch:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Make
+        run: make
