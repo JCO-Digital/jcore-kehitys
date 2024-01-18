@@ -16,13 +16,20 @@ jobs:
       - name: Make
         run: make
 
-      - name: deploy to server
-        uses: AEnterprise/rsync-deploy@v1.0.2
-        env:
-          DEPLOY_KEY: ${{ secrets.SSH_KEY }}
-          ARGS: "-e -c -r --delete"
-          SERVER_PORT: 22
-          FOLDER: "wp-content/themes/ilme"
-          SERVER_IP: kehitys.ssh.wpengine.net
-          USERNAME: kehitys
-          SERVER_DESTINATION: /sites/kehitys
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_KEY }}
+          known_hosts: "just-a-placeholder-so-we-dont-get-errors"
+
+      - name: Adding Known Hosts
+        run: ssh-keyscan -H kehitys.ssh.wpengine.net >> ~/.ssh/known_hosts
+
+      - name: Deploy Vendor
+        run: rsync -avz ./vendor kehitys@kehitys.ssh.wpengine.net:/sites/kehitys/vendor
+
+      - name: Deploy Theme
+        run: rsync -avz ./wp-content/themes/ilme kehitys@kehitys.ssh.wpengine.net:/sites/kehitys/wp-contents/themes/ilme/
