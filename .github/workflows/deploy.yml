@@ -20,7 +20,8 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.SSH_GITHUB_KEY }}
-          known_hosts: "vanillacitadel.bojaco.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGtCQrCz5dzJNypkwd/p3L3uMRAfuen1EbKD26vjOCRp"
+          name: id_ed25519
+          known_hosts: ${{ secrets.VC_HOSTS }}
 
       - name: Deploy Vendor
         run: rsync -rlci --delete vendor icecreamvc@vanillacitadel.bojaco.com:/sites/kehitys.jcore.fi/files/
