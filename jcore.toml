@@ -1,7 +1,7 @@
 domains = [ "kehitys.localhost" ]
 localDomain = "kehitys.localhost"
 projectName = "kehitys"
-remoteDomain = "kehitys.wpengine.com"
+remoteDomain = "kehitys.jcore.fi"
 remoteHost = "icecreamvc@vanillacitadel.bojaco.com"
 remotePath = "/sites/kehitys.jcore.fi/files"
 theme = "ilme"
