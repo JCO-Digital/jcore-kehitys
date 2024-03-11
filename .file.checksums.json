@@ -1,5 +1,5 @@
 {
-  ".config/docker-entrypoint.sh": "5598a23de53bcd79c6ea6d38b0c95a5ceee58544a39aeca9ae6e64ae8edbe9c2",
+  ".config/docker-entrypoint.sh": "1d68f7606c6ba509bd4cb0d02a49af63cd33e65df6971dcf35d61a61343d0340",
   ".config/nginx/site.conf": "0ff60f643e33ed2d737e933d33082b41b48d3c4bd7e77f4cef535da6c17b1791",
   ".config/nginx/uploads.conf": "b00ebae95f1de89c467a8a264c2425ea4edd06f818c5fc322f27e87614f49c25",
   ".config/scripts/appendssl": "c5397e2ea939dd35bdb86e805636875063bdd21a3c738b3726f9ccedffd23df3",
@@ -10,18 +10,20 @@
   ".config/tls-entrypoint.sh": "f8b80e8342e3ed01120faace211f4438a7cf2231e33934be0991810c0af494f7",
   ".gitattributes": "2442c44e027de20ac5554fd55ac6024e2a14a688b5d52374e3d2c8288f27d362",
   ".gitignore": "66d7bf6a2b6f90d9032c4302604d5e59f8330137b5ddefef640db0f4c103c7b4",
-  "build.mjs": "dfaaabdc9525ce7bbfb30ecb41e5623037316f4aecac07b5a5af020514c3a65a",
+  "build.mjs": "b106b323a9787ca3c34c8b08b844079e3749d0ef23f1e5eb37839053a048cac1",
   "composer.json": "c781dd93a324a2f3cf431788f4416f7bcd29d6d6aeb5ab87a4fe3a05cd43a0ed",
-  "defaults.toml": "73e8b50d430904acc2b9f279a5b6fc6ca7ae110e79396167c76f2f7cfe285e7e",
+  "defaults.toml": "c8f89f269aedd587027bf08e97acf719219787a213877137eda030bf65109af1",
   "docker-compose.yml": "bc3e18cd446dc33c9026bc9034f4c256d668b9f51a8eb33c1ef0bda19c6bc8f5",
   "env-values.toml": "f862632285ac06ce3f05efd71973af88a7af259e590e808ec8287914e063aa1e",
-  "package.json": "05a0ddb83fc64443d5239c5214803dd76df4c7b05d1c9025778b5a4c6bdd7f81",
+  "package.json": "209adc317010f5a684f8eeeee72633bcc6ef0aef72bea050786c493dcbe606dd",
   "php.ini": "8b26dad6db0a83ab15c59c1905228e0df282eb6bf6f313c4a22b13db198a9be6",
   "phpcs.xml": "819fcc87d6589062fbf5bc6262c0e30d23b4bc2ebe4b29ce3e65df30d8960a85",
-  ".drone.yml": "fdc6e40ad1fa988ef5804509435bf035690cbc365bbc36cbc918cde3c9728994",
-  "readme.md": "03020139148b886ad2f1e4e4fe841e05a7828c3257565f9aff0dda00088b4439",
+  ".drone.yml": "830445d902392fbeb16a968716be8052a5fbee897d7265c32143343330ef83e6",
+  "readme.md": "1dac360317057e96ca15523a50d8c83d7afcfefc024c4e919fc8bfbdff6a211f",
   "wp-content/index.php": "bd48c24ce4500e60d2524571756787283f0d3fbfa50b116331309c09773f0cd1",
   "wp-content/mu-plugins/debug.php": "836cb9ebdddbcc4f4b89ff1b6930c046d20beff3022d64ece61b8ea070f55f13",
   "wp-content/mu-plugins/jcore-loader.php": "7f793abd974b6736dc57f6e27d1bd881384c1295af45c05259f446fdaed127e2",
-  "wp-content/plugins/.gitignore": "0b49070c8116f153f8fa3ab71ced88aab8596c4a5551ce410014b914e0e976bc"
+  "wp-content/plugins/.gitignore": "0b49070c8116f153f8fa3ab71ced88aab8596c4a5551ce410014b914e0e976bc",
+  ".config/scripts/importthemes": "ddd0a01381631de0f220227e25776691432eba0cad71f02bb227412bee850801",
+  "build-example.toml": "9729e0906ebeb55b7323c08be9744aa0d57777857f233a833cd36cc6768fad22"
 }

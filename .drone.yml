@@ -27,7 +27,7 @@ steps:
       develop:
       source:
         - wp-content/themes/jcore2
-        - wp-content/themes/jcore2-child
+        - wp-content/themes/kehitys
         - vendor
     environment:
       SSH_KEY:

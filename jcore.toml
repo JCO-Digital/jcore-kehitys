@@ -1,7 +1,8 @@
 domains = [ "kehitys.localhost" ]
 localDomain = "kehitys.localhost"
 projectName = "kehitys"
-remoteHost = "kehitys@kehitys.ssh.wpengine.net"
-remotePath = "/sites/kehitys"
-theme = "kehitys"
 remoteDomain = "kehitys.wpengine.com"
+remoteHost = "icecreamvc@vanillacitadel.bojaco.com"
+remotePath = "/sites/kehitys.jcore.fi/files"
+theme = "ilme"
+dbPrefix = "7q3_"
