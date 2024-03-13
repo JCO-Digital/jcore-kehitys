@@ -8,5 +8,5 @@
 	branch = main
 [submodule "modules/jcore-blocks"]
 	path = modules/jcore-blocks
-	url = git@github-work:/jco-digital/jcore-blocks.git
+	url = git@github.com:/jco-digital/jcore-blocks.git
     branch = main
