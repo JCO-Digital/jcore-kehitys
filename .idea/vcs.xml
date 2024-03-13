@@ -8,6 +8,7 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/jcore-blocks" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/modules/jcore-ydin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/themes/ilme" vcs="Git" />
   </component>

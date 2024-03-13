@@ -16,7 +16,7 @@
   </component>
   <component name="PhpCodeSniffer">
     <phpcs_settings>
-      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/vendor/bin/phpcbf" standards="MySource;PEAR;PSR1;PSR12;PSR2;Squiz;WordPress;WordPress-Core;WordPress-Docs;WordPress-Extra;Zend" tool_path="$PROJECT_DIR$/vendor/bin/phpcs" />
+      <PhpCSConfiguration beautifier_path="$PROJECT_DIR$/vendor/bin/phpcbf" standards="Modernize;MySource;NormalizedArrays;PEAR;PHPCSUtils;PSR1;PSR12;PSR2;Squiz;Universal;WordPress;WordPress-Core;WordPress-Docs;WordPress-Extra;Zend" tool_path="$PROJECT_DIR$/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpIncludePathManager">
@@ -69,6 +69,7 @@
       <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/wp-coding-standards/wpcs" />
       <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/composer" />
       <path value="$PROJECT_DIR$/../wordpress-core" />
+      <path value="$PROJECT_DIR$/vendor/jcore/ydin" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
