@@ -5,6 +5,7 @@ CMD := make
 all: install build
 
 install:
+	git submodule update --init --recursive --remote
 	composer install
 	cd $(theme); npm ci
 	@find $(MODULES) -maxdepth 1 -mindepth 1 -type d | while read dir; do \
