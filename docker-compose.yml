@@ -60,6 +60,7 @@ services:
       - ./.jcore/php.ini:/usr/local/etc/php/php.ini
       - ./wp-content:/var/www/html/wp-content
       - ./vendor:/var/www/html/vendor
+      - ./modules:/var/www/html/modules
       - ~/.config/jcore/ssh:/home/jcore/.ssh
       - ~/.config/jcore/ssl:/home/jcore/ca
     extra_hosts:

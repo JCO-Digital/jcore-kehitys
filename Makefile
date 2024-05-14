@@ -7,7 +7,7 @@ all: install build
 install:
 	git submodule update --init --recursive --remote
 	composer install
-	cd $(theme); npm ci
+	cd $(theme); pnpm install
 	@find $(MODULES) -maxdepth 1 -mindepth 1 -type d | while read dir; do \
 		echo "Installing in $$dir"; \
 		cd $$dir; \
@@ -15,10 +15,10 @@ install:
 		cd -; \
 	done
 build:
-	cd $(theme); npm run build
+	cd $(theme); pnpm run build
 
 watch:
-	cd $(theme); npm run watch
+	cd $(theme); pnpm run watch
 
 clean:
 	rm -rf $(theme)/dist
