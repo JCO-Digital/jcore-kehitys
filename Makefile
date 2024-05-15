@@ -7,6 +7,8 @@ all: install build
 install:
 	git submodule update --init --recursive --remote
 	composer install
+	# First we check if pnpm is installed, if not we use corepack to install it
+	pnpm --version || corepack enable
 	cd $(theme); pnpm install
 	@find $(MODULES) -maxdepth 1 -mindepth 1 -type d | while read dir; do \
 		echo "Installing in $$dir"; \
