@@ -34,6 +34,7 @@
       ],
       "recurse": true,
       "replace": false,
+      "ignore-duplicates": true,
       "merge-dev": true,
       "merge-extra": false
     }

@@ -27,3 +27,9 @@ clean:
 	rm -rf $(theme)/node_modules
 	rm -rf node_modules
 	rm -rf vendor
+	@find $(MODULES) -maxdepth 1 -mindepth 1 -type d | while read dir; do \
+		echo "Deleting modules in $$dir"; \
+		cd $$dir; \
+		rm -rf vendor; \
+		cd -; \
+	done
