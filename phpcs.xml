@@ -5,21 +5,34 @@
     <arg name="extensions" value="php"/>
     <arg value="p" />
 
-    <config name="installed_paths" value="vendor/wp-coding-standards/wpcs,vendor/phpcsstandards/phpcsutils,vendor/phpcsstandards/phpcsextra" />
-
     <file>wp-content</file>
 
+    <exclude-pattern>wp-content/plugins/advanced-custom-fields-pro</exclude-pattern>
+    <exclude-pattern>wp-content/plugins/wordpress-seo</exclude-pattern>
+    <exclude-pattern>wp-content/plugins/loco-translate</exclude-pattern>
+    <exclude-pattern>wp-content/plugins/polylang-pro</exclude-pattern>
+    <exclude-pattern>wp-content/mu-plugins</exclude-pattern>
+    <exclude-pattern>wp-content/uploads</exclude-pattern>
     <exclude-pattern>*/.git/*</exclude-pattern>
     <exclude-pattern>*/vendor/*</exclude-pattern>
     <exclude-pattern>node_modules/*</exclude-pattern>
     <exclude-pattern>.idea/*</exclude-pattern>
-    <exclude-pattern>wp-content/mu-plugins</exclude-pattern>
-    <exclude-pattern>wp-content/plugins</exclude-pattern>
-    <exclude-pattern>wp-content/uploads</exclude-pattern>
 
-
-    <rule ref="WordPress-Docs" />
+    <rule ref="Squiz">
+        <exclude name="Squiz.Commenting.FileComment.Missing" />
+    </rule>
+    <rule ref="WordPress">
+		<exclude name="Generic.Files.LowercasedFilename.NotFound" />
+		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+		<exclude name="WordPress.Arrays.ArrayDeclarationSpacing.AssociativeKeyFound" />
+	</rule>
+    <rule ref="WordPress-Docs">
+        <exclude name="Squiz.Commenting.FileComment.Missing" />
+    </rule>
     <rule ref="WordPress-Extra">
+        <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
+        <exclude name="WordPress.Files.FileName.InvalidClassFileName" />
         <exclude name="WordPress.PHP.YodaConditions" />
     </rule>
 </ruleset>

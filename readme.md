@@ -1,4 +1,4 @@
-# K ehitys
+# Kehitys
 A container for WordPress development. 
 
 ## Installation
