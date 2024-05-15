@@ -9,7 +9,8 @@
   },
   "license": "GPL",
   "devDependencies": {
-    "prettier": "^3.1.0"
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.14"
   },
   "dependencies": {},
   "browserslist": [
