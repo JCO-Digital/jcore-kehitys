@@ -2,6 +2,8 @@ theme := wp-content/themes/ilme
 
 all: install build
 
+ci: install build
+
 install:
 	composer install
 	cd $(theme); pnpm i
