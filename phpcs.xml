@@ -18,21 +18,11 @@
     <exclude-pattern>node_modules/*</exclude-pattern>
     <exclude-pattern>.idea/*</exclude-pattern>
 
-    <rule ref="Squiz">
-        <exclude name="Squiz.Commenting.FileComment.Missing" />
-    </rule>
-    <rule ref="WordPress">
-		<exclude name="Generic.Files.LowercasedFilename.NotFound" />
-		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
-		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
-		<exclude name="WordPress.Arrays.ArrayDeclarationSpacing.AssociativeKeyFound" />
-	</rule>
-    <rule ref="WordPress-Docs">
-        <exclude name="Squiz.Commenting.FileComment.Missing" />
-    </rule>
+    <rule ref="WordPress-Docs" />
     <rule ref="WordPress-Extra">
-        <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
-        <exclude name="WordPress.Files.FileName.InvalidClassFileName" />
         <exclude name="WordPress.PHP.YodaConditions" />
+    </rule>
+    <rule ref="Generic.CodeAnalysis.AssignmentInCondition">
+        <exclude name="Generic.CodeAnalysis.AssignmentInCondition.FoundInWhileCondition"/>
     </rule>
 </ruleset>
