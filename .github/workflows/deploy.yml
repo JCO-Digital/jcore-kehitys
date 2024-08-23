@@ -7,38 +7,17 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: [ ubuntu-latest, Linux, X64 ]
     steps:
-      - uses: actions/checkout@v4
+
+      - build:
+        uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@v2.2.0
         with:
-          submodules: recursive
-
-
-      - uses: pnpm/action-setup@v2
-
-      - name: Get pnpm store directory
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-
-      - uses: actions/cache@v4
-        name: Setup pnpm cache
-        with:
-          path: ${{ env.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
-
-      - name: Setup PHP with tools
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: ${{ inputs.php_version }}
-          tools: composer:${{ inputs.composer_version }}
-
-      - name: Make
-        run: make ci
-        env:
-          COMPOSER_AUTH: ${{ secrets.COMPOSER_AUTH }}
+          platform: ubuntu-latest
+          fetch_submodules: true
+          php_version: 8.2
+          slack_channel: CU8LPT03W
+        secrets: inherit
           
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2

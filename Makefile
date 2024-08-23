@@ -1,10 +1,14 @@
 theme := wp-content/themes/ilme
+ydin := modules/jcore-ydin
+blocks := modules/jcore-blocks
 
 all: install build
 
 ci: install build
 
 install:
+	cd $(ydin); composer install
+	cd $(blocks); composer install
 	composer install
 	cd $(theme); pnpm i
 
