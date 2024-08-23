@@ -6,6 +6,7 @@ on:
       - main
 
 jobs:
+
   build:
     uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@main
     with:
