@@ -8,7 +8,7 @@ on:
 jobs:
 
   build:
-    uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@v2.2.0
+    uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@latest
     with:
       platform: ubuntu-latest
       fetch_submodules: true
