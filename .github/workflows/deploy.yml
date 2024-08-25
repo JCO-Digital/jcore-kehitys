@@ -19,6 +19,7 @@ jobs:
     needs: [ build ]
     uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@main
     with:
+      platform: ubuntu-latest
       server_url: saalastigroupvc@vc.bojaco.com
       base_path: /sites/saalastigroup.com/files
       paths: >-
