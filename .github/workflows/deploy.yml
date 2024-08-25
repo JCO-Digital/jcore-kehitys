@@ -15,28 +15,16 @@ jobs:
       php_version: 8.2
       slack_channel: CU8LPT03W
     secrets: inherit
-
   deploy:
-    runs-on: [ ubuntu-latest ]
-    steps:
-
-      - name: Download build files
-        uses: actions/download-artifact@v4
-        with:
-          name: homework_prebuild_files
-
-      - name: Install SSH Key
-        uses: shimataro/ssh-key-action@v2
-        with:
-          key: ${{ secrets.SSH_GITHUB_KEY }}
-          name: id_ed25519
-          known_hosts: ${{ secrets.VC_HOSTS }}
-
-      - name: Deploy Vendor
-        run: rsync -rlci --delete vendor icecreamvc@vanillacitadel.bojaco.com:/sites/kehitys.jcore.fi/files/
-
-      - name: Deploy Modules
-        run: rsync -rlci --delete modules icecreamvc@vanillacitadel.bojaco.com:/sites/kehitys.jcore.fi/files/
-
-      - name: Deploy Theme
-        run: rsync -rlci --delete --exclude=node_modules wp-content/themes/ilme icecreamvc@vanillacitadel.bojaco.com:/sites/kehitys.jcore.fi/files/wp-content/themes/
+    needs: [ build ]
+    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@main
+    with:
+      server_url: saalastigroupvc@vc.bojaco.com
+      base_path: /sites/saalastigroup.com/files
+      paths: >-
+        wp-content/themes/ilme/:wp-content/themes/ilme/,
+        modules/:modules/,
+        vendor/:vendor/
+      known_hosts: ${{ vars.VC_HOSTS }}
+      slack_channel: CU8LPT03W
+    secrets: inherit
