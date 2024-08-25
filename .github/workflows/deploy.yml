@@ -20,12 +20,11 @@ jobs:
     uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@main
     with:
       platform: ubuntu-latest
-      server_url: saalastigroupvc@vc.bojaco.com
-      base_path: /sites/saalastigroup.com/files
+      server_url: icecreamvc@vc.bojaco.com
+      base_path: files
       paths: >-
         wp-content/themes/ilme/:wp-content/themes/ilme/,
         modules/:modules/,
         vendor/:vendor/
-      known_hosts: ${{ vars.VC_HOSTS }}
       slack_channel: CU8LPT03W
     secrets: inherit
