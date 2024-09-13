@@ -16,6 +16,7 @@
 /.jcore/
 .env
 .local*
+.phpactor.json
 
 ### VisualStudioCode template
 .vscode/*
@@ -77,4 +78,3 @@ fabric.properties
 
 # Editor-based Rest Client
 .idea/httpRequests
-
