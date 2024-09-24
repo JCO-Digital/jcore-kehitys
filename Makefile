@@ -1,7 +1,4 @@
 theme := wp-content/themes/ilme
-ydin := modules/jcore-ydin
-blocks := modules/jcore-blocks
-dynamic := modules/jcore-dynamic-archive
 
 all: install build
 
@@ -12,9 +9,6 @@ update-modules:
 	git submodule update --init --recursive --remote
 
 install:
-	cd $(ydin); composer install
-	cd $(blocks); composer install
-	cd $(dynamic); composer install
 	composer install
 	cd $(theme); pnpm i
 

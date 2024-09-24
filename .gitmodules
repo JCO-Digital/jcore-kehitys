@@ -6,10 +6,6 @@
 	path = modules/jcore-ydin
 	url = git@github.com:/jco-digital/jcore-ydin.git
 	branch = main
-[submodule "modules/jcore-blocks"]
-	path = modules/jcore-blocks
-	url = git@github.com:/jco-digital/jcore-blocks.git
-    branch = main
 [submodule "modules/jcore-dynamic-archive"]
 	path = wp-content/plugins/jcore-dynamic-archive
 	url = git@github.com:jco-digital/jcore-dynamic-archive.git
