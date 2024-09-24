@@ -10,3 +10,6 @@
 	path = modules/jcore-blocks
 	url = git@github.com:/jco-digital/jcore-blocks.git
     branch = main
+[submodule "modules/jcore-dynamic-archive"]
+	path = modules/jcore-dynamic-archive
+	url = git@github.com:jco-digital/jcore-dynamic-archive.git

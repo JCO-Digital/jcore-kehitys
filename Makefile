@@ -6,6 +6,10 @@ all: install build
 
 ci: install build
 
+update-modules:
+	git submodule sync --recursive
+	git submodule update --init --recursive --remote
+
 install:
 	cd $(ydin); composer install
 	cd $(blocks); composer install
