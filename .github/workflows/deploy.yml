@@ -25,7 +25,7 @@ jobs:
       paths: >-
         wp-content/themes/ilme/:wp-content/themes/ilme/,
         modules/:modules/,
-        vendor/:vendor/
+        vendor/:vendor/,
         wp-content/plugins/dynamic-archive/:wp-content/plugins/dynamic-archive/,
         wp-content/mu-plugins/module-loader.php:wp-content/mu-plugins/
       slack_channel: CU8LPT03W
