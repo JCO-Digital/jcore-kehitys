@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/modules/jcore-ydin/classes" isTestSource="false" packagePrefix="Jcore\Ydin\" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/copilot/chatSessions" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/jcore/ydin" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/clue/stream-filter" />
@@ -41,19 +40,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/twig/twig" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/wikimedia/composer-merge-plugin" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/wp-coding-standards/wpcs" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/dealerdirect/phpcodesniffer-composer-installer" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/php-stubs/wordpress-stubs" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/phpcsstandards/phpcsextra" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/phpcsstandards/phpcsutils" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/squizlabs/php_codesniffer" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/symfony/deprecation-contracts" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/symfony/polyfill-ctype" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/symfony/polyfill-mbstring" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/symfony/polyfill-php81" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/timber/timber" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/twig/twig" />
-      <excludeFolder url="file://$MODULE_DIR$/modules/jcore-ydin/vendor/wp-coding-standards/wpcs" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php81" />
     </content>
     <orderEntry type="inheritedJdk" />

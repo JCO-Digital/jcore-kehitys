@@ -7,7 +7,8 @@
     <option name="transferred" value="true" />
   </component>
   <component name="PHPCodeSnifferOptionsConfiguration">
-    <option name="codingStandard" value="WordPress" />
+    <option name="codingStandard" value="Custom" />
+    <option name="customRuleset" value="$PROJECT_DIR$/phpcs.xml" />
     <option name="extensions" value="php" />
     <option name="highlightLevel" value="WARNING" />
     <option name="installedPaths" value="$PROJECT_DIR$/vendor/wp-coding-standards/wpcs" />
@@ -59,19 +60,6 @@
       <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
       <path value="$PROJECT_DIR$/vendor/php-http/promise" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/phpcsstandards/phpcsextra" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/phpcsstandards/phpcsutils" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/php-stubs/wordpress-stubs" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/squizlabs/php_codesniffer" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/wp-coding-standards/wpcs" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/dealerdirect/phpcodesniffer-composer-installer" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/twig/twig" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/composer" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/timber/timber" />
-      <path value="$PROJECT_DIR$/modules/jcore-ydin/vendor/symfony/polyfill-php81" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2">

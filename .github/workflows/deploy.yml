@@ -26,5 +26,6 @@ jobs:
         wp-content/themes/ilme/:wp-content/themes/ilme/,
         modules/:modules/,
         vendor/:vendor/
+        wp-content/mu-plugins/module-loader.php:wp-content/mu-plugins/module-loader.php
       slack_channel: CU8LPT03W
     secrets: inherit

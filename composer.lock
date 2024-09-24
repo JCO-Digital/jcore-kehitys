@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dee58d966537faa4c0e747d8bc0cb252",
+    "content-hash": "17d263cc315c22843511121d03080560",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -338,6 +338,53 @@
             },
             "description": "Migrate between any two environments. Push, pull, and export full sites. Find and replace content including serialized data. Import and back up the database.",
             "homepage": "https://deliciousbrains.com/wp-migrate-db-pro/"
+        },
+        {
+            "name": "jcore/dynamic-archive",
+            "version": "v0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JCO-Digital/jcore-dynamic-archive.git",
+                "reference": "0131f6a493a373ae959d6604217154011093f480"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-dynamic-archive/zipball/0131f6a493a373ae959d6604217154011093f480",
+                "reference": "0131f6a493a373ae959d6604217154011093f480",
+                "shasum": ""
+            },
+            "require": {
+                "jcore/ydin": "^3.5"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "php-stubs/wordpress-stubs": "^6.4",
+                "phpcsstandards/phpcsutils": "^1.0",
+                "squizlabs/php_codesniffer": "^3.7",
+                "wp-coding-standards/wpcs": "^3.0.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Jcore\\DynamicArchive\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "JCO Digital",
+                    "email": "support@jco.fi"
+                }
+            ],
+            "description": "JCORE Dynamic Archive module",
+            "support": {
+                "issues": "https://github.com/JCO-Digital/jcore-dynamic-archive/issues",
+                "source": "https://github.com/JCO-Digital/jcore-dynamic-archive/tree/v0.3.0"
+            },
+            "time": "2024-09-24T12:13:23+00:00"
         },
         {
             "name": "jcore/ydin",
