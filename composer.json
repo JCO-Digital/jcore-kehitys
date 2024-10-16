@@ -47,7 +47,12 @@
     "wpackagist-plugin/wordpress-seo": "^21.4",
     "nyholm/psr7": "^1.8.0",
     "wikimedia/composer-merge-plugin": "^2.0",
-    "jcore/dynamic-archive": "^0.3.0"
+    "wpackagist-plugin/spinupwp": "^1.7",
+    "wpackagist-plugin/font-awesome": "^4.5",
+    "wpackagist-plugin/smtp2go": "^1.9",
+    "wpackagist-plugin/redirection": "^5.5",
+    "wpackagist-plugin/google-site-kit": "^1.136",
+    "jco/gridible": "^2.1"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
