@@ -1,4 +1,4 @@
-domains = [ "kehitys.localhost" ]
+domains = ["kehitys.localhost"]
 localDomain = "kehitys.localhost"
 projectName = "kehitys"
 remoteDomain = "kehitys.jcore.fi"
@@ -6,5 +6,5 @@ remoteHost = "icecreamvc@vanillacitadel.bojaco.com"
 remotePath = "/sites/kehitys.jcore.fi/files"
 theme = "ilme"
 dbPrefix = "7q3_"
-pluginGit = [ 'jcore-dynamic-archive' ]
+pluginGit = ['dynamic-archive']
 pluginInstall = "composer"
