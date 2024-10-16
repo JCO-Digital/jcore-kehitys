@@ -9,3 +9,4 @@
 [submodule "modules/jcore-dynamic-archive"]
 	path = wp-content/plugins/jcore-dynamic-archive
 	url = git@github.com:jco-digital/jcore-dynamic-archive.git
+    branch = main
