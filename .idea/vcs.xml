@@ -11,7 +11,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/modules/jcore-ydin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/wp-content/plugins/jcore-dynamic-archive" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/wp-content/themes/ilme" vcs="Git" />
   </component>
 </project>
