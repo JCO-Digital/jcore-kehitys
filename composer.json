@@ -25,34 +25,26 @@
       "php-http/discovery": true,
       "dealerdirect/phpcodesniffer-composer-installer": true,
       "wikimedia/composer-merge-plugin": true
-    }
-  },
-  "extra": {
-    "merge-plugin": {
-      "include": [
-        "modules/*/composer.json"
-      ],
-      "recurse": true,
-      "replace": false,
-      "ignore-duplicates": true,
-      "merge-dev": true,
-      "merge-extra": false
+    },
+    "preferred-install": {
+      "jcore/*": "source"
     }
   },
   "require": {
+    "jcore/ydin": "^3.7",
     "jco/advanced-custom-fields-pro": "^6.2",
     "jco/wp-migrate-db-pro": "^2.6.6",
     "sentry/sentry": "^3.18.2",
     "symfony/http-client": "^v5.4.23",
     "wpackagist-plugin/wordpress-seo": "^21.4",
     "nyholm/psr7": "^1.8.0",
-    "wikimedia/composer-merge-plugin": "^2.0",
     "wpackagist-plugin/spinupwp": "^1.7",
     "wpackagist-plugin/font-awesome": "^4.5",
     "wpackagist-plugin/smtp2go": "^1.9",
     "wpackagist-plugin/redirection": "^5.5",
     "wpackagist-plugin/google-site-kit": "^1.136",
-    "jco/gridible": "^2.1"
+    "jco/gridible": "^2.1",
+    "jcore/dynamic-archive": "^0.7.2"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
