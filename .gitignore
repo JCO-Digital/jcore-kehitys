@@ -8,7 +8,6 @@
 **/node_modules/
 /wp-content/plugins/*
 !/wp-content/plugins/.gitignore
-!/wp-content/plugins/dynamic-archive
 /wp-content/mu-plugins/*
 !/wp-content/mu-plugins/module-loader.php
 !/wp-content/mu-plugins/debug.php

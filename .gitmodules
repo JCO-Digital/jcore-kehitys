@@ -2,11 +2,3 @@
 	path = wp-content/themes/ilme
 	url = git@github.com:JCO-Digital/jcore-ilme.git
 	branch = main
-[submodule "modules/jcore-ydin"]
-	path = modules/jcore-ydin
-	url = git@github.com:/jco-digital/jcore-ydin.git
-	branch = main
-[submodule "wp-content/plugins/dynamic-archive"]
-	path = wp-content/plugins/dynamic-archive
-	url = git@github.com:JCO-Digital/jcore-dynamic-archive.git
-	branch = main
