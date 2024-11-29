@@ -2018,16 +2018,16 @@
         },
         {
             "name": "timber/timber",
-            "version": "v2.2.0",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/timber/timber.git",
-                "reference": "5fc65f235323e8119fddc3cadbfef39ec97a663a"
+                "reference": "55acea4414eac6ea9d0a11a102af37cf13f219b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/timber/timber/zipball/5fc65f235323e8119fddc3cadbfef39ec97a663a",
-                "reference": "5fc65f235323e8119fddc3cadbfef39ec97a663a",
+                "url": "https://api.github.com/repos/timber/timber/zipball/55acea4414eac6ea9d0a11a102af37cf13f219b2",
+                "reference": "55acea4414eac6ea9d0a11a102af37cf13f219b2",
                 "shasum": ""
             },
             "require": {
@@ -2045,7 +2045,7 @@
                 "phpunit/phpunit": "^9.0",
                 "rector/rector": "^1.0",
                 "squizlabs/php_codesniffer": "^3.0",
-                "symplify/easy-coding-standard": "^12.0",
+                "symplify/easy-coding-standard": "^12.2",
                 "szepeviktor/phpstan-wordpress": "^1.1",
                 "twig/cache-extra": "^3.3",
                 "wpackagist-plugin/advanced-custom-fields": "^6.0",
@@ -2108,11 +2108,15 @@
             },
             "funding": [
                 {
+                    "url": "https://github.com/timber",
+                    "type": "github"
+                },
+                {
                     "url": "https://opencollective.com/timber",
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-05-15T13:47:33+00:00"
+            "time": "2024-11-08T09:38:16+00:00"
         },
         {
             "name": "twig/twig",
@@ -2439,16 +2443,16 @@
         },
         {
             "name": "php-stubs/wordpress-stubs",
-            "version": "v6.6.2",
+            "version": "v6.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-stubs/wordpress-stubs.git",
-                "reference": "f50fd7ed45894d036e4fef9ab7e5bbbaff6a30cc"
+                "reference": "83448e918bf06d1ed3d67ceb6a985fc266a02fd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/f50fd7ed45894d036e4fef9ab7e5bbbaff6a30cc",
-                "reference": "f50fd7ed45894d036e4fef9ab7e5bbbaff6a30cc",
+                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/83448e918bf06d1ed3d67ceb6a985fc266a02fd1",
+                "reference": "83448e918bf06d1ed3d67ceb6a985fc266a02fd1",
                 "shasum": ""
             },
             "require-dev": {
@@ -2457,9 +2461,9 @@
                 "php": "^7.4 || ^8.0",
                 "php-stubs/generator": "^0.8.3",
                 "phpdocumentor/reflection-docblock": "^5.4.1",
-                "phpstan/phpstan": "^1.10.49",
+                "phpstan/phpstan": "^1.11",
                 "phpunit/phpunit": "^9.5",
-                "szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset": "^1.0",
+                "szepeviktor/phpcs-psr-12-neutron-hybrid-ruleset": "^1.1.1",
                 "wp-coding-standards/wpcs": "3.1.0 as 2.3.0"
             },
             "suggest": {
@@ -2481,9 +2485,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-stubs/wordpress-stubs/issues",
-                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v6.6.2"
+                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v6.7.1"
             },
-            "time": "2024-09-30T07:10:48+00:00"
+            "time": "2024-11-24T03:57:09+00:00"
         },
         {
             "name": "phpcsstandards/phpcsextra",
