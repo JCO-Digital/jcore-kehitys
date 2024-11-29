@@ -6,5 +6,5 @@ remoteHost = "icecreamvc@vanillacitadel.bojaco.com"
 remotePath = "/sites/kehitys.jcore.fi/files"
 theme = "ilme"
 dbPrefix = "7q3_"
-pluginGit = ['dynamic-archive']
+pluginGit = []
 pluginInstall = "composer"
