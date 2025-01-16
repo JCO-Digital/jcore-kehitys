@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1f277ef83f8760581d0639beb2a1f03",
+    "content-hash": "17363b3f61e3079f58f086e55548d0e0",
     "packages": [
         {
             "name": "composer/installers",
@@ -333,6 +333,53 @@
                 "source": "https://github.com/JCO-Digital/jcore-dynamic-archive/tree/v0.10.2"
             },
             "time": "2024-12-17T12:37:51+00:00"
+        },
+        {
+            "name": "jcore/security",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JCO-Digital/jcore-security.git",
+                "reference": "14e01d17e7dde97c7dc89b43fa65f8ee071af237"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-security/zipball/14e01d17e7dde97c7dc89b43fa65f8ee071af237",
+                "reference": "14e01d17e7dde97c7dc89b43fa65f8ee071af237",
+                "shasum": ""
+            },
+            "require": {
+                "jcore/ydin": "^3"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1",
+                "php-stubs/wordpress-stubs": "^6.4",
+                "phpcsstandards/phpcsutils": "^1",
+                "squizlabs/php_codesniffer": "^3",
+                "wp-coding-standards/wpcs": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jcore\\Security\\": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "JCO Digital",
+                    "email": "support@jco.fi"
+                }
+            ],
+            "description": "JCORE Security Module",
+            "support": {
+                "issues": "https://github.com/JCO-Digital/jcore-security/issues",
+                "source": "https://github.com/JCO-Digital/jcore-security/tree/v0.2.0"
+            },
+            "time": "2025-01-16T09:41:02+00:00"
         },
         {
             "name": "jcore/ydin",
