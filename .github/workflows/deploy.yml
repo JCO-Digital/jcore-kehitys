@@ -24,9 +24,8 @@ jobs:
       base_path: files
       paths: >-
         wp-content/themes/ilme/:wp-content/themes/ilme/,
-        modules/:modules/,
         vendor/:vendor/,
-        wp-content/plugins/dynamic-archive/:wp-content/plugins/dynamic-archive/,
+        wp-content/plugins/:wp-content/plugins/,
         wp-content/mu-plugins/module-loader.php:wp-content/mu-plugins/
       slack_channel: CU8LPT03W
     secrets: inherit
