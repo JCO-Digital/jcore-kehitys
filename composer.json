@@ -35,14 +35,16 @@
     "jcore/security": "^0",
    	"jcore/ydin": "^3",
 		"wpackagist-plugin/font-awesome": "*",
-		"wpackagist-plugin/limit-login-attempts-reloaded": "*",
 		"wpackagist-plugin/smtp2go": "*",
 		"wpackagist-plugin/spinupwp": "*",
 		"wpackagist-plugin/wordpress-seo": "*",
-		"jco/advanced-custom-fields-pro": "*"
+		"jco/advanced-custom-fields-pro": "*",
+    "jcore/runner": "^4.0",
+    "jcodigital/jcore-grid": "^0.1.2"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
+    "php-stubs/wordpress-stubs": "^6",
     "squizlabs/php_codesniffer": "^3",
     "dealerdirect/phpcodesniffer-composer-installer": "^1",
     "wp-coding-standards/wpcs": "^3",
