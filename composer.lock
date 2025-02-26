@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a14e56c5f8afa1e12ab1aa3309ea041",
+    "content-hash": "9a9975e9898dfe707aed79aff7b14780",
     "packages": [
         {
             "name": "composer/installers",
@@ -286,6 +286,25 @@
             },
             "description": "Customize WordPress with powerful, professional and intuitive fields.",
             "homepage": "https://www.advancedcustomfields.com"
+        },
+        {
+            "name": "jco/gravityforms",
+            "version": "2.9.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.jco.fi/satispress/gravityforms/2.9.3",
+                "shasum": "1c254b0fa87fb206115a0d5e6cb7bcacc6413e98"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Forms",
+                "homepage": "https://gravityforms.com"
+            },
+            "description": "Easily create web forms and manage form entries within the WordPress admin.",
+            "homepage": "https://gravityforms.com"
         },
         {
             "name": "jcodigital/jcore-grid",

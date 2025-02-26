@@ -40,7 +40,8 @@
 		"wpackagist-plugin/wordpress-seo": "*",
 		"jco/advanced-custom-fields-pro": "*",
     "jcore/runner": "^4.0",
-    "jcodigital/jcore-grid": "^0.1.2"
+    "jcodigital/jcore-grid": "^0.1.2",
+    "jco/gravityforms": "^2.9"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
