@@ -15,7 +15,9 @@ install:
 build:
 	cd $(theme); pnpm run build
 
-watch:
+watch: dev
+
+dev:
 	cd $(theme); pnpm run watch
 
 clean:

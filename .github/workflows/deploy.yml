@@ -2,11 +2,11 @@ name: Deploy site
 
 on:
   push:
-    branch:
+    branches:
       - main
+      - block-theme
 
 jobs:
-
   build:
     uses: jco-digital/deploy-wp-action/.github/workflows/build-project.yml@main
     with:
@@ -15,8 +15,24 @@ jobs:
       php_version: 8.2
       slack_channel: CU8LPT03W
     secrets: inherit
-  deploy:
-    needs: [ build ]
+  deploy-main:
+    needs: [build]
+    if: github.ref == 'refs/heads/main'
+    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@main
+    with:
+      platform: ubuntu-latest
+      server_url: icecreamvc@vc.bojaco.com
+      base_path: files
+      paths: >-
+        wp-content/themes/ilme/:wp-content/themes/ilme/,
+        vendor/:vendor/,
+        wp-content/plugins/:wp-content/plugins/,
+        wp-content/mu-plugins/module-loader.php:wp-content/mu-plugins/
+      slack_channel: CU8LPT03W
+    secrets: inherit
+  deploy-block-theme:
+    needs: [build]
+    if: github.ref == 'refs/heads/block-theme'
     uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@main
     with:
       platform: ubuntu-latest
