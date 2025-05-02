@@ -12,11 +12,14 @@
 !/wp-content/mu-plugins/module-loader.php
 !/wp-content/mu-plugins/debug.php
 *.log
-/vendor/
 /.jcore/
 .env
 .local*
 .phpactor.json
+
+/vendor/
+!/vendor/jcore
+!/vendor/jcore/*
 
 ### VisualStudioCode template
 .vscode/*
