@@ -2,3 +2,8 @@
 	path = wp-content/themes/ilme
 	url = git@github.com:JCO-Digital/jcore-ilme.git
 	branch = main
+
+[submodule "wp-content/plugins/lohko"]
+	path = wp-content/plugins/lohko
+	url = git@github.com:JCO-Digital/jcore-lohko.git
+	branch = main
