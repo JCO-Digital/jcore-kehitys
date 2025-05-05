@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a9975e9898dfe707aed79aff7b14780",
+    "content-hash": "a4f3deb66d008caf146b2fd1227e2d34",
     "packages": [
         {
             "name": "composer/installers",
@@ -289,11 +289,11 @@
         },
         {
             "name": "jco/gravityforms",
-            "version": "2.9.6.1",
+            "version": "2.9.7.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.jco.fi/satispress/gravityforms/2.9.6.1",
-                "shasum": "c5cb6c4a7e2d6a8c1647ea1cb95f2f03023e4165"
+                "url": "https://repo.jco.fi/satispress/gravityforms/2.9.7.2",
+                "shasum": "614f6c7293c71212faec49065d94a2b88efe9fdf"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -305,42 +305,6 @@
             },
             "description": "Easily create web forms and manage form entries within the WordPress admin.",
             "homepage": "https://gravityforms.com"
-        },
-        {
-            "name": "jcodigital/jcore-grid",
-            "version": "0.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/JCO-Digital/jcore-grid-dist.git",
-                "reference": "81b466130b5e15fb975e622254e3f8e852bd177a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/jcore-grid-dist/zipball/81b466130b5e15fb975e622254e3f8e852bd177a",
-                "reference": "81b466130b5e15fb975e622254e3f8e852bd177a",
-                "shasum": ""
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
-                "php-stubs/wordpress-stubs": "^6.7",
-                "roave/security-advisories": "dev-latest",
-                "squizlabs/php_codesniffer": "^3.7",
-                "wp-coding-standards/wpcs": "^3.0.0"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "J&CO Digital Oy",
-                    "email": "support@jco.fi"
-                }
-            ],
-            "description": "JCORE Grid",
-            "support": {
-                "issues": "https://github.com/JCO-Digital/jcore-grid-dist/issues",
-                "source": "https://github.com/JCO-Digital/jcore-grid-dist/tree/v0.1.2"
-            },
-            "time": "2025-02-24T06:31:37+00:00"
         },
         {
             "name": "jcore/dynamic-archive",
@@ -478,16 +442,16 @@
         },
         {
             "name": "jcore/ydin",
-            "version": "v3.7.2",
+            "version": "v3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/jcore-ydin.git",
-                "reference": "973265c7ebd4dbb89190c0dd19f6126f27d1fa29"
+                "reference": "7afb5da6e4c4685f7b1198c9ed39b80abbbb273c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/jcore-ydin/zipball/973265c7ebd4dbb89190c0dd19f6126f27d1fa29",
-                "reference": "973265c7ebd4dbb89190c0dd19f6126f27d1fa29",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-ydin/zipball/7afb5da6e4c4685f7b1198c9ed39b80abbbb273c",
+                "reference": "7afb5da6e4c4685f7b1198c9ed39b80abbbb273c",
                 "shasum": ""
             },
             "require": {
@@ -522,9 +486,9 @@
             "description": "JCORE Ydin (JYDIN), the core module for JCORE",
             "support": {
                 "issues": "https://github.com/JCO-Digital/jcore-ydin/issues",
-                "source": "https://github.com/JCO-Digital/jcore-ydin/tree/v3.7.2"
+                "source": "https://github.com/JCO-Digital/jcore-ydin/tree/v3.8.0"
             },
-            "time": "2024-09-25T06:37:58+00:00"
+            "time": "2025-05-02T12:38:21+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
@@ -1013,7 +977,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -1072,7 +1036,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.32.0"
             },
             "funding": [
                 {
@@ -1092,19 +1056,20 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341"
+                "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/85181ba99b2345b0ef10ce42ecac37612d9fd341",
-                "reference": "85181ba99b2345b0ef10ce42ecac37612d9fd341",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/6d857f4d76bd4b343eac26d6b539585d2bc56493",
+                "reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493",
                 "shasum": ""
             },
             "require": {
+                "ext-iconv": "*",
                 "php": ">=7.2"
             },
             "provide": {
@@ -1152,7 +1117,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.32.0"
             },
             "funding": [
                 {
@@ -1168,7 +1133,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-09T11:45:10+00:00"
+            "time": "2024-12-23T08:48:59+00:00"
         },
         {
             "name": "timber/timber",
@@ -1274,16 +1239,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.20.0",
+            "version": "v3.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3468920399451a384bef53cf7996965f7cd40183"
+                "reference": "285123877d4dd97dd7c11842ac5fb7e86e60d81d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3468920399451a384bef53cf7996965f7cd40183",
-                "reference": "3468920399451a384bef53cf7996965f7cd40183",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/285123877d4dd97dd7c11842ac5fb7e86e60d81d",
+                "reference": "285123877d4dd97dd7c11842ac5fb7e86e60d81d",
                 "shasum": ""
             },
             "require": {
@@ -1337,7 +1302,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.20.0"
+                "source": "https://github.com/twigphp/Twig/tree/v3.21.1"
             },
             "funding": [
                 {
@@ -1349,7 +1314,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-02-13T08:34:43+00:00"
+            "time": "2025-05-03T07:21:55+00:00"
         },
         {
             "name": "wpackagist-plugin/font-awesome",
@@ -1407,15 +1372,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "24.9",
+            "version": "25.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/24.9"
+                "reference": "tags/25.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.24.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.25.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1505,16 +1470,16 @@
         },
         {
             "name": "php-stubs/wordpress-stubs",
-            "version": "v6.8.0",
+            "version": "v6.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-stubs/wordpress-stubs.git",
-                "reference": "1824db4d1d00d32c0119175d2369d9425dbc4953"
+                "reference": "92e444847d94f7c30f88c60004648f507688acd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/1824db4d1d00d32c0119175d2369d9425dbc4953",
-                "reference": "1824db4d1d00d32c0119175d2369d9425dbc4953",
+                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/92e444847d94f7c30f88c60004648f507688acd5",
+                "reference": "92e444847d94f7c30f88c60004648f507688acd5",
                 "shasum": ""
             },
             "conflict": {
@@ -1522,7 +1487,7 @@
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
-                "nikic/php-parser": "^4.13",
+                "nikic/php-parser": "^5.4",
                 "php": "^7.4 || ^8.0",
                 "php-stubs/generator": "^0.8.3",
                 "phpdocumentor/reflection-docblock": "^5.4.1",
@@ -1550,28 +1515,28 @@
             ],
             "support": {
                 "issues": "https://github.com/php-stubs/wordpress-stubs/issues",
-                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v6.8.0"
+                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v6.8.1"
             },
-            "time": "2025-04-17T15:13:53+00:00"
+            "time": "2025-05-02T12:33:34+00:00"
         },
         {
             "name": "phpcsstandards/phpcsextra",
-            "version": "1.2.1",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHPCSExtra.git",
-                "reference": "11d387c6642b6e4acaf0bd9bf5203b8cca1ec489"
+                "reference": "46d08eb86eec622b96c466adec3063adfed280dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSExtra/zipball/11d387c6642b6e4acaf0bd9bf5203b8cca1ec489",
-                "reference": "11d387c6642b6e4acaf0bd9bf5203b8cca1ec489",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHPCSExtra/zipball/46d08eb86eec622b96c466adec3063adfed280dd",
+                "reference": "46d08eb86eec622b96c466adec3063adfed280dd",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4",
                 "phpcsstandards/phpcsutils": "^1.0.9",
-                "squizlabs/php_codesniffer": "^3.8.0"
+                "squizlabs/php_codesniffer": "^3.12.1"
             },
             "require-dev": {
                 "php-parallel-lint/php-console-highlighter": "^1.0",
@@ -1628,9 +1593,13 @@
                 {
                     "url": "https://opencollective.com/php_codesniffer",
                     "type": "open_collective"
+                },
+                {
+                    "url": "https://thanks.dev/u/gh/phpcsstandards",
+                    "type": "thanks_dev"
                 }
             ],
-            "time": "2023-12-08T16:49:07+00:00"
+            "time": "2025-04-20T23:35:32+00:00"
         },
         {
             "name": "phpcsstandards/phpcsutils",
@@ -1726,19 +1695,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "6c54d20ae795b83ecf3f826311d7f488cd1ef005"
+                "reference": "45b01f4e60c350f72a8697056674e449e053935a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/6c54d20ae795b83ecf3f826311d7f488cd1ef005",
-                "reference": "6c54d20ae795b83ecf3f826311d7f488cd1ef005",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/45b01f4e60c350f72a8697056674e449e053935a",
+                "reference": "45b01f4e60c350f72a8697056674e449e053935a",
                 "shasum": ""
             },
             "conflict": {
                 "3f/pygmentize": "<1.2",
                 "adaptcms/adaptcms": "<=1.3",
                 "admidio/admidio": "<4.3.12",
-                "adodb/adodb-php": "<=5.20.20|>=5.21,<=5.21.3",
+                "adodb/adodb-php": "<=5.22.8",
                 "aheinze/cockpit": "<2.2",
                 "aimeos/ai-admin-graphql": ">=2022.04.1,<2022.10.10|>=2023.04.1,<2023.10.6|>=2024.04.1,<2024.07.2",
                 "aimeos/ai-admin-jsonadm": "<2020.10.13|>=2021.04.1,<2021.10.6|>=2022.04.1,<2022.10.3|>=2023.04.1,<2023.10.4|==2024.04.1",
@@ -1759,6 +1728,7 @@
                 "anchorcms/anchor-cms": "<=0.12.7",
                 "andreapollastri/cipi": "<=3.1.15",
                 "andrewhaine/silverstripe-form-capture": ">=0.2,<=0.2.3|>=1,<1.0.2|>=2,<2.2.5",
+                "aoe/restler": "<1.7.1",
                 "apache-solr-for-typo3/solr": "<2.8.3",
                 "apereo/phpcas": "<1.6",
                 "api-platform/core": "<3.4.17|>=4.0.0.0-alpha1,<4.0.22",
@@ -1845,14 +1815,14 @@
                 "concrete5/core": "<8.5.8|>=9,<9.1",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/comments-bundle": ">=2,<4.13.40|>=5.0.0.0-RC1-dev,<5.3.4",
-                "contao/contao": "<=5.4.1",
+                "contao/contao": ">=3,<3.5.37|>=4,<4.4.56|>=4.5,<4.9.40|>=4.10,<4.11.7|>=4.13,<4.13.21|>=5.1,<5.1.4",
                 "contao/core": "<3.5.39",
                 "contao/core-bundle": "<4.13.54|>=5,<5.3.30|>=5.4,<5.5.6",
                 "contao/listing-bundle": ">=3,<=3.5.30|>=4,<4.4.8",
                 "contao/managed-edition": "<=1.5",
                 "corveda/phpsandbox": "<1.3.5",
                 "cosenary/instagram": "<=2.3",
-                "craftcms/cms": "<4.13.8|>=5,<5.5.5",
+                "craftcms/cms": "<=4.14.14|>=5,<=5.6.16",
                 "croogo/croogo": "<4",
                 "cuyz/valinor": "<0.12",
                 "czim/file-handling": "<1.5|>=2,<2.3",
@@ -1958,7 +1928,7 @@
                 "firebase/php-jwt": "<6",
                 "fisharebest/webtrees": "<=2.1.18",
                 "fixpunkt/fp-masterquiz": "<2.2.1|>=3,<3.5.2",
-                "fixpunkt/fp-newsletter": "<1.1.1|>=2,<2.1.2|>=2.2,<3.2.6",
+                "fixpunkt/fp-newsletter": "<1.1.1|>=1.2,<2.1.2|>=2.2,<3.2.6",
                 "flarum/core": "<1.8.10",
                 "flarum/flarum": "<0.1.0.0-beta8",
                 "flarum/framework": "<1.8.10",
@@ -2118,10 +2088,11 @@
                 "livewire/volt": "<1.7",
                 "lms/routes": "<2.1.1",
                 "localizationteam/l10nmgr": "<7.4|>=8,<8.7|>=9,<9.2",
+                "luracast/restler": "<3.1",
                 "luyadev/yii-helpers": "<1.2.1",
                 "macropay-solutions/laravel-crud-wizard-free": "<3.4.17",
                 "maestroerror/php-heic-to-jpg": "<1.0.5",
-                "magento/community-edition": "<2.4.5|==2.4.5|>=2.4.5.0-patch1,<2.4.5.0-patch11|==2.4.6|>=2.4.6.0-patch1,<2.4.6.0-patch9|>=2.4.7.0-beta1,<2.4.7.0-patch4|>=2.4.8.0-beta1,<2.4.8.0-beta2",
+                "magento/community-edition": "<2.4.5|==2.4.5|>=2.4.5.0-patch1,<2.4.5.0-patch12|==2.4.6|>=2.4.6.0-patch1,<2.4.6.0-patch10|>=2.4.7.0-beta1,<2.4.7.0-patch5|>=2.4.8.0-beta1,<2.4.8.0-beta2",
                 "magento/core": "<=1.9.4.5",
                 "magento/magento1ce": "<1.9.4.3-dev",
                 "magento/magento1ee": ">=1,<1.14.4.3-dev",
@@ -2162,7 +2133,7 @@
                 "mojo42/jirafeau": "<4.4",
                 "mongodb/mongodb": ">=1,<1.9.2",
                 "monolog/monolog": ">=1.8,<1.12",
-                "moodle/moodle": "<4.3.10|>=4.4,<4.4.6|>=4.5.0.0-beta,<4.5.2",
+                "moodle/moodle": "<4.3.12|>=4.4,<4.4.8|>=4.5.0.0-beta,<4.5.4",
                 "mos/cimage": "<0.7.19",
                 "movim/moxl": ">=0.8,<=0.10",
                 "movingbytes/social-network": "<=1.2.1",
@@ -2176,6 +2147,7 @@
                 "mustache/mustache": ">=2,<2.14.1",
                 "mwdelaney/wp-enable-svg": "<=0.2",
                 "namshi/jose": "<2.2",
+                "nasirkhan/laravel-starter": "<11.11",
                 "nategood/httpful": "<1",
                 "neoan3-apps/template": "<1.1.1",
                 "neorazorx/facturascripts": "<2022.04",
@@ -2554,7 +2526,7 @@
                 "xataface/xataface": "<3",
                 "xpressengine/xpressengine": "<3.0.15",
                 "yab/quarx": "<2.4.5",
-                "yeswiki/yeswiki": "<4.5.2",
+                "yeswiki/yeswiki": "<4.5.4",
                 "yetiforce/yetiforce-crm": "<6.5",
                 "yidashi/yii2cmf": "<=2",
                 "yii2mod/yii2-cms": "<1.9.2",
@@ -2645,7 +2617,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-17T15:05:22+00:00"
+            "time": "2025-05-01T20:05:59+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
