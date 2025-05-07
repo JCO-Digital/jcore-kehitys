@@ -1,4 +1,5 @@
 theme := wp-content/themes/ilme
+lohko := wp-content/plugins/lohko
 
 all: install build
 
@@ -11,9 +12,11 @@ update-modules:
 install:
 	composer install
 	cd $(theme); pnpm i
+	cd $(lohko); pnpm i
 
 build:
 	cd $(theme); pnpm run build
+	cd $(lohko); pnpm run build
 
 watch: dev
 
