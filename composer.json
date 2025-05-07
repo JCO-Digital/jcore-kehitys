@@ -1,22 +1,20 @@
 {
   "minimum-stability": "stable",
   "repositories": {
-    "satispress": {
-      "type": "composer",
-      "url": "https://repo.jco.fi/satispress/"
-    },
     "wpackagist": {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    "acf": {
+      "type": "composer",
+      "url": "https://connect.advancedcustomfields.com"
+    },
+    "gravity": {
+      "type": "composer",
+      "url": "https://composer.gravity.io"
     }
   },
   "config": {
-    "http-basic": {
-      "repo.jco.fi": {
-        "username": "WNRyTv3UaRs2IIvVJ71tJTn9f6iJPVUS",
-        "password": "satispress"
-      }
-    },
     "platform": {
       "php": "8.2"
     },
@@ -38,9 +36,9 @@
     "wpackagist-plugin/smtp2go": "*",
     "wpackagist-plugin/spinupwp": "*",
     "wpackagist-plugin/wordpress-seo": "*",
-    "jco/advanced-custom-fields-pro": "*",
     "jcore/runner": "^4.0",
-    "jco/gravityforms": "^2.9"
+    "wpengine/advanced-custom-fields-pro": "*",
+    "gravity/gravityforms": "*"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
