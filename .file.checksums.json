@@ -1,5 +1,5 @@
 {
-  ".config/docker-entrypoint.sh": "a48c7032064540a5b79520b5fb6d444d2e7130c40dfe842a404bf7dd1f613697",
+  ".config/docker-entrypoint.sh": "5672f1cd23acdcad377bf292e5fe1da3d0fcd342ab98e467f9fe01184c18ce82",
   ".config/nginx/site.conf": "0ff60f643e33ed2d737e933d33082b41b48d3c4bd7e77f4cef535da6c17b1791",
   ".config/nginx/uploads.conf": "b00ebae95f1de89c467a8a264c2425ea4edd06f818c5fc322f27e87614f49c25",
   ".config/scripts/appendssl": "c5397e2ea939dd35bdb86e805636875063bdd21a3c738b3726f9ccedffd23df3",
@@ -12,7 +12,7 @@
   ".gitignore": "66d7bf6a2b6f90d9032c4302604d5e59f8330137b5ddefef640db0f4c103c7b4",
   "build.mjs": "b106b323a9787ca3c34c8b08b844079e3749d0ef23f1e5eb37839053a048cac1",
   "composer.json": "c781dd93a324a2f3cf431788f4416f7bcd29d6d6aeb5ab87a4fe3a05cd43a0ed",
-  "defaults.toml": "d092ab7e3a3b2a5d41bb57463b494d5eb3ccaa27ee0a8f9a98b1f12581295a19",
+  "defaults.toml": "a9707bce851f5fe67c8cf9c3e16f719e99bbd276f4708f7998b8b5d097dc93aa",
   "docker-compose.yml": "3e55bf70b02b8cb7c9817af74a9fe7ce846b15d3458cfef41862af4ee0a9b0be",
   "env-values.toml": "f862632285ac06ce3f05efd71973af88a7af259e590e808ec8287914e063aa1e",
   "package.json": "209adc317010f5a684f8eeeee72633bcc6ef0aef72bea050786c493dcbe606dd",
@@ -27,5 +27,8 @@
   ".config/scripts/importthemes": "9c3d102d720a26261adb039b69564d38584fe18178b1632d8166d41af89a9d89",
   "build-example.toml": "9729e0906ebeb55b7323c08be9744aa0d57777857f233a833cd36cc6768fad22",
   "makefile": "4ed3a98f37f92b50537b2a577bde8cd13887398705a04c7efb7cc4fa5799f160",
-  "Makefile": "4ed3a98f37f92b50537b2a577bde8cd13887398705a04c7efb7cc4fa5799f160"
+  "Makefile": "4ed3a98f37f92b50537b2a577bde8cd13887398705a04c7efb7cc4fa5799f160",
+  "pnpm-lock.yaml": "17c814b167307942d3609c7b9d916ceddb85839573ab39baa114e30edb132a1a",
+  ".github/workflows/deploy.yml": "29294b2fee4ec3ea8c2d9e29d169699680bb8fec2ee4652f9717e55f9e9deec1",
+  "wp-content/mu-plugins/module-loader.php": "c0c5a5be986a93fc4264cc2f934621f143ff426b698121786d732b82231fef00"
 }
