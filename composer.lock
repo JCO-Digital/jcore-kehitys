@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a11a65b96e9c04198ca3d66395de61b7",
+    "content-hash": "d91783a0db52ffa9e54dad0ac1acb761",
     "packages": [
         {
             "name": "composer/installers",
@@ -369,16 +369,16 @@
         },
         {
             "name": "jcore/security",
-            "version": "v0.3.0",
+            "version": "v0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/jcore-security.git",
-                "reference": "5d75b7930638cd15671e141164a50435e0be0e8a"
+                "reference": "9f98613158d99e75884e7c285ee7f75d32ff9ffd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/jcore-security/zipball/5d75b7930638cd15671e141164a50435e0be0e8a",
-                "reference": "5d75b7930638cd15671e141164a50435e0be0e8a",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-security/zipball/9f98613158d99e75884e7c285ee7f75d32ff9ffd",
+                "reference": "9f98613158d99e75884e7c285ee7f75d32ff9ffd",
                 "shasum": ""
             },
             "require": {
@@ -410,9 +410,9 @@
             "description": "JCORE Security Module",
             "support": {
                 "issues": "https://github.com/JCO-Digital/jcore-security/issues",
-                "source": "https://github.com/JCO-Digital/jcore-security/tree/v0.3.0"
+                "source": "https://github.com/JCO-Digital/jcore-security/tree/v0.3.1"
             },
-            "time": "2025-01-16T14:29:49+00:00"
+            "time": "2025-06-02T11:38:50+00:00"
         },
         {
             "name": "jcore/ydin",
