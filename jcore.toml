@@ -8,6 +8,7 @@ theme = "ilme"
 dbPrefix = "7q3_"
 pluginGit = ["lohko", "ruudukko"]
 pluginInstall = "composer"
+wpImage = "jcodigi/wordpress:8.4"
 
 [branch-block-theme]
 remoteDomain = "block.jcore.fi"

@@ -13,10 +13,10 @@
 	"build.mjs": "b106b323a9787ca3c34c8b08b844079e3749d0ef23f1e5eb37839053a048cac1",
 	"composer.json": "060b504aa590614ab67b141989acae682746ed7805a0d6c7d644ef464d804e5e",
 	"defaults.toml": "1a686be505306df4d55c7211649060c1de06a37b7664bf5ee942ffe32bdb7c67",
-	"docker-compose.yml": "3e55bf70b02b8cb7c9817af74a9fe7ce846b15d3458cfef41862af4ee0a9b0be",
+	"docker-compose.yml": "124435c587aad20e9a84b3a4f7b0f8c534697e2459bc9fedbfd8aad35fed03b7",
 	"env-values.toml": "f862632285ac06ce3f05efd71973af88a7af259e590e808ec8287914e063aa1e",
 	"package.json": "3c9b96cd1ed579f0513e4313cb042948cb782282bffeab5fdab0e078f61cc22c",
-	"php.ini": "8b26dad6db0a83ab15c59c1905228e0df282eb6bf6f313c4a22b13db198a9be6",
+	"php.ini": "cc8a194ebdd4adde5ba5e0b51caba1e4acb8e2bfec896b9b8090bda4bafcf5aa",
 	"phpcs.xml": "b295b6b2091f69c8d67c098e96611b8a70d1a4781bf91a78da354762c4900c69",
 	".drone.yml": "830445d902392fbeb16a968716be8052a5fbee897d7265c32143343330ef83e6",
 	"readme.md": "1dac360317057e96ca15523a50d8c83d7afcfefc024c4e919fc8bfbdff6a211f",
@@ -29,8 +29,8 @@
 	"makefile": "4ed3a98f37f92b50537b2a577bde8cd13887398705a04c7efb7cc4fa5799f160",
 	"Makefile": "4366a5ae5a14304eab48b7100d79ba1f4640c63b7b70ef3e058211f3a33ff21c",
 	"pnpm-lock.yaml": "17c814b167307942d3609c7b9d916ceddb85839573ab39baa114e30edb132a1a",
-	".github/workflows/deploy.yml": "0bf0f458cf2b71cdccdc91479fc3e9eed5fdf5764489c0c6f14d4a25e61dd473",
+	".github/workflows/deploy.yml": "af3b50dd1dc72a291aaec987163b3d114909289195cf0663eef48e81b145653f",
 	"wp-content/mu-plugins/module-loader.php": "c0c5a5be986a93fc4264cc2f934621f143ff426b698121786d732b82231fef00",
 	".prettierrc.js": "39affb6c73ab0a626f3216c4518e6d000025a56f4f56d8de5ebdde4769cba9fb",
-	"pnpm-workspace.yaml": "1d0507c59501bbc45609dd0c39f02eae89a4087984b560e166cde69088e4a87e"
+	"pnpm-workspace.yaml": "d56247685a925b5be4b37c15b2ae9c281c4adf1dee9765aa6bb7a395690f5baa"
 }
