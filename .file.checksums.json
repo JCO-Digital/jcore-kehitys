@@ -1,6 +1,6 @@
 {
 	".config/docker-entrypoint.sh": "5672f1cd23acdcad377bf292e5fe1da3d0fcd342ab98e467f9fe01184c18ce82",
-	".config/nginx/site.conf": "a6288f84052d6735e8c6d171c3864a44ef9805f8732f209fe06419ff8181991d",
+	".config/nginx/site.conf": "",
 	".config/nginx/uploads.conf": "b00ebae95f1de89c467a8a264c2425ea4edd06f818c5fc322f27e87614f49c25",
 	".config/scripts/appendssl": "c5397e2ea939dd35bdb86e805636875063bdd21a3c738b3726f9ccedffd23df3",
 	".config/scripts/importdb": "e7789a38e35e7cbf8e6ea12e32ecb22cf5c42afbb12dc86d5e97015c6742e074",
