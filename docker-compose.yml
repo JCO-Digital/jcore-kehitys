@@ -67,6 +67,7 @@ services:
     networks:
       - default
       - jcore
+    working_dir: "/var/www/html"
 
   memcached:
     image: "memcached:1.6.21"

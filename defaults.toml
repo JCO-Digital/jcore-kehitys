@@ -1,10 +1,11 @@
 template = "jcore3"
-branch = "gintonic"
-theme =  "jcore-ilme"
+theme = "jcore-ilme"
 wpImage = "jcodigi/wordpress:latest"
-pluginLocal = [ "loco-translate", "pattern-manager" ]
-pluginExclude = [ "minimal-coming-soon-maintenance-mode", "coming-soon", "hyperdb", "hyperdb-1-1" ]
-dbExclude = [ "relevanssi" ]
+wpVersion = "latest"
+pluginLocal = ["loco-translate"]
+pluginExclude = ["minimal-coming-soon-maintenance-mode", "coming-soon"]
+pluginGit = ["lohko"]
+dbExclude = []
 dbPrefix = "wp_"
 remoteDomain = "localhost"
 localDomain = "localhost"

@@ -1,4 +1,17 @@
 [submodule "wp-content/themes/ilme"]
 	path = wp-content/themes/ilme
 	url = git@github.com:JCO-Digital/jcore-ilme.git
+	branch = block-theme
+
+[submodule "wp-content/plugins/lohko"]
+	path = wp-content/plugins/lohko
+	url = git@github.com:JCO-Digital/jcore-lohko.git
 	branch = main
+
+[submodule "wp-content/plugins/ruudukko"]
+	path = wp-content/plugins/ruudukko
+	url = git@github.com:JCO-Digital/jcore-ruudukko.git
+	branch = main
+[submodule "wp-content/plugins/runner"]
+	path = wp-content/plugins/runner
+	url = git@github.com:JCO-Digital/jcore-runner.git

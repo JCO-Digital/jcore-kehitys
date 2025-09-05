@@ -1,27 +1,36 @@
 theme := wp-content/themes/ilme
+lohko := wp-content/plugins/lohko
+.PHONY: all dev ci ci-install install build watch watch-theme watch-lohko clean
 
 all: install build
 
-ci: install build
+dev: install watch
 
-update-modules:
-	git submodule sync --recursive
-	git submodule update --init --recursive --remote
+ci: ci-install build
+
+ci-install:
+	composer install --no-dev --no-interaction --optimize-autoloader
+	pnpm i
 
 install:
 	composer install
-	cd $(theme); pnpm i
+	pnpm i
 
 build:
-	cd $(theme); pnpm run build
+	cd $(theme); ${MAKE} build
+	cd $(lohko); ${MAKE} build
 
-watch: dev
+watch:
+	${MAKE} -j 2 watch-theme watch-lohko
 
-dev:
-	cd $(theme); pnpm run watch
+watch-theme:
+	cd $(theme); ${MAKE} watch
+
+watch-lohko:
+	cd $(lohko); ${MAKE} watch
 
 clean:
-	rm -rf $(theme)/dist
-	rm -rf $(theme)/node_modules
+	cd $(theme); ${MAKE} clean
+	cd $(lohko); ${MAKE} clean
 	rm -rf node_modules
 	rm -rf vendor
