@@ -12,3 +12,6 @@
 	path = wp-content/plugins/ruudukko
 	url = git@github.com:JCO-Digital/jcore-ruudukko.git
 	branch = main
+[submodule "wp-content/plugins/runner"]
+	path = wp-content/plugins/runner
+	url = git@github.com:JCO-Digital/jcore-runner.git
