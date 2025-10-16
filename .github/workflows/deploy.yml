@@ -21,22 +21,7 @@ jobs:
     uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@v3
     with:
       platform: ubuntu-latest
-      server_url: icecreamvc@vc.bojaco.com
-      base_path: files
-      paths: >-
-        wp-content/themes/ilme/:wp-content/themes/ilme/,
-        vendor/:vendor/,
-        wp-content/plugins/:wp-content/plugins/,
-        wp-content/mu-plugins/module-loader.php:wp-content/mu-plugins/
-      slack_channel: CU8LPT03W
-    secrets: inherit
-  deploy-block-theme:
-    needs: [build]
-    if: github.ref == 'refs/heads/block-theme'
-    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@v3
-    with:
-      platform: ubuntu-latest
-      server_url: block@vi.bojaco.com
+      server_url: kehitys@vs.bojaco.com
       base_path: files
       paths: >-
         wp-content/themes/ilme/:wp-content/themes/ilme/,
