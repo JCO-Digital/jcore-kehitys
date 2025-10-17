@@ -3,3 +3,6 @@
 	url = git@github.com:JCO-Digital/jcore-ilme.git
 	branch = hurricane
 
+[submodule "wp-content/plugins/lohko"]
+	path = wp-content/plugins/lohko
+	url = git@github.com:JCO-Digital/jcore-lohko.git

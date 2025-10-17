@@ -1,6 +1,6 @@
 {
 	".config/docker-entrypoint.sh": "5672f1cd23acdcad377bf292e5fe1da3d0fcd342ab98e467f9fe01184c18ce82",
-	".config/nginx/site.conf": "",
+	".config/nginx/site.conf": "ea34292e0c8922932895cd0c53ac72a7f08fe663f7635a00bf246a723a1b0b0e",
 	".config/nginx/uploads.conf": "b00ebae95f1de89c467a8a264c2425ea4edd06f818c5fc322f27e87614f49c25",
 	".config/scripts/appendssl": "c5397e2ea939dd35bdb86e805636875063bdd21a3c738b3726f9ccedffd23df3",
 	".config/scripts/importdb": "e7789a38e35e7cbf8e6ea12e32ecb22cf5c42afbb12dc86d5e97015c6742e074",
@@ -27,10 +27,11 @@
 	".config/scripts/importthemes": "9c3d102d720a26261adb039b69564d38584fe18178b1632d8166d41af89a9d89",
 	"build-example.toml": "9729e0906ebeb55b7323c08be9744aa0d57777857f233a833cd36cc6768fad22",
 	"makefile": "4ed3a98f37f92b50537b2a577bde8cd13887398705a04c7efb7cc4fa5799f160",
-	"Makefile": "4366a5ae5a14304eab48b7100d79ba1f4640c63b7b70ef3e058211f3a33ff21c",
+	"Makefile": "ffbd4a2c037f0b9fa5b86dfedc21152ea913fc73d9c6d1ae1dd96511b6814642",
 	"pnpm-lock.yaml": "17c814b167307942d3609c7b9d916ceddb85839573ab39baa114e30edb132a1a",
 	".github/workflows/deploy.yml": "af3b50dd1dc72a291aaec987163b3d114909289195cf0663eef48e81b145653f",
 	"wp-content/mu-plugins/module-loader.php": "c0c5a5be986a93fc4264cc2f934621f143ff426b698121786d732b82231fef00",
-	".prettierrc.js": "39affb6c73ab0a626f3216c4518e6d000025a56f4f56d8de5ebdde4769cba9fb",
-	"pnpm-workspace.yaml": "d56247685a925b5be4b37c15b2ae9c281c4adf1dee9765aa6bb7a395690f5baa"
+	".prettierrc.js": "beee8607d1b6987dced1a8968d84c9254d6a9e8c7a9479edb39ced7ab8f3277d",
+	"pnpm-workspace.yaml": "d56247685a925b5be4b37c15b2ae9c281c4adf1dee9765aa6bb7a395690f5baa",
+	".prettierignore": "def36031743f1e74d35f14fc97d44311f1066c8a0cc48a68178e9d8671a3a23e"
 }

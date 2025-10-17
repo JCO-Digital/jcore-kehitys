@@ -6,6 +6,6 @@ remoteHost = "kehitys@vs.bojaco.com"
 remotePath = "files"
 theme = "ilme"
 dbPrefix = "7q3_"
-pluginGit = []
+pluginGit = ["lohko"]
 pluginInstall = "composer"
 wpImage = "jcodigi/wordpress:8.4"
