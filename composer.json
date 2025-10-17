@@ -39,8 +39,7 @@
 		"wpackagist-plugin/two-factor": "*",
 		"wpackagist-plugin/wordpress-seo": "*",
 		"wpackagist-plugin/wpvulnerability": "*",
-		"wpengine/advanced-custom-fields-pro": "*",
-		"gravity/gravityforms": "*"
+		"wpengine/advanced-custom-fields-pro": "*"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-latest",
