@@ -1,6 +1,6 @@
 packages:
-  - "wp-content/plugins/lohko"
-  - "wp-content/themes/ilme"
+    - 'wp-content/plugins/lohko'
+    - 'wp-content/themes/ilme'
 
 publicHoistPattern:
-  - "prettier"
+    - 'prettier'

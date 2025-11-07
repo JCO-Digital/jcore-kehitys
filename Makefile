@@ -21,7 +21,7 @@ build:
 	cd $(lohko) && ${MAKE} build
 
 watch:
-	${MAKE} -j 2 watch-theme watch-lohko
+	${MAKE} -j 3 watch-theme watch-lohko watch-ruudukko
 
 watch-theme:
 	cd $(theme) && ${MAKE} watch
