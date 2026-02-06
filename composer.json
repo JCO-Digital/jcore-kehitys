@@ -16,7 +16,7 @@
 	},
 	"config": {
 		"platform": {
-			"php": "8.4"
+			"php": "8.2"
 		},
 		"allow-plugins": {
 			"composer/installers": true,
@@ -25,8 +25,7 @@
 		}
 	},
 	"require": {
-		"jcore/ydin": "^3",
-		"sentry/sentry": "^4",
+		"jcore/ydin": "^4",
 		"jcore/dynamic-archive": "^0",
 		"jcore/security": "^0",
 		"jcore/oikeus": "^1",

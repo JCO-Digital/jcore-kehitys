@@ -1,5 +1,7 @@
 packages:
     - 'wp-content/plugins/lohko'
+    - 'wp-content/plugins/jcore-portti'
+    - 'wp-content/plugins/jcore-maailma'
     - 'wp-content/themes/ilme'
 
 publicHoistPattern:

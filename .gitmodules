@@ -6,3 +6,9 @@
 [submodule "wp-content/plugins/lohko"]
 	path = wp-content/plugins/lohko
 	url = git@github.com:JCO-Digital/jcore-lohko.git
+[submodule "wp-content/plugins/jcore-maailma"]
+	path = wp-content/plugins/jcore-maailma
+	url = git@github.com:JCO-Digital/jcore-maailma.git
+[submodule "wp-content/plugins/jcore-portti"]
+	path = wp-content/plugins/jcore-portti
+	url = git@github.com:JCO-Digital/jcore-portti.git
