@@ -24,9 +24,9 @@ jobs:
       server_url: kehitys@vs.bojaco.com
       base_path: files
       paths: >-
-        wp-content/themes/ilme/:wp-content/themes/ilme/,
+        wp-content/themes/ilme/,
         wp-content/plugins/lohko/:wp-content/plugins/lohko/,
-        wp-content/plugins/ruudukko/:wp-content/plugins/ruudukko/
+        wp-content/plugins/ruudukko/:wp-content/plugins/ruudukko/,
         wp-content/plugins/jcore-maailma/:wp-content/plugins/jcore-maailma/,
         wp-content/plugins/jcore-portti/:wp-content/plugins/jcore-portti/,
         vendor/:vendor/,
