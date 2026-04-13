@@ -1,5 +1,6 @@
 theme := wp-content/themes/ilme
 lohko := wp-content/plugins/lohko
+ruudukko := wp-content/plugins/ruudukko
 maailma := wp-content/plugins/jcore-maailma
 portti := wp-content/plugins/jcore-portti
 .PHONY: all dev ci ci-install install build watch watch-theme watch-lohko clean
@@ -32,6 +33,10 @@ watch-theme:
 
 watch-lohko:
 	cd $(lohko) && ${MAKE} watch
+
+watch-rudukko:
+	cd $(lohko) && ${MAKE} watch
+
 
 clean:
 	cd $(theme) && ${MAKE} clean
