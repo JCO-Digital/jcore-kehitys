@@ -27,7 +27,6 @@ jobs:
         wp-content/themes/ilme/,
         wp-content/plugins/lohko/:wp-content/plugins/lohko/,
         wp-content/plugins/ruudukko/:wp-content/plugins/ruudukko/,
-        wp-content/plugins/jcore-maailma/:wp-content/plugins/jcore-maailma/,
         wp-content/plugins/jcore-portti/:wp-content/plugins/jcore-portti/,
         vendor/:vendor/,
         wp-content/mu-plugins/module-loader.php:wp-content/mu-plugins/
