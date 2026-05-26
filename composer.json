@@ -27,7 +27,6 @@
 	"require": {
 		"jcore/ydin": "^4",
 		"jcore/dynamic-archive": "^0",
-		"jcore/security": "^0",
 		"jcore/oikeus": "^1",
 		"jcore/ruudukko": "*"
 	},
