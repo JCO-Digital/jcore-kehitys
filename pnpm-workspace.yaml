@@ -1,13 +1,13 @@
 packages:
-    - 'wp-content/plugins/lohko'
-    - 'wp-content/plugins/jcore-portti'
-    - 'wp-content/themes/ilme'
+  - 'wp-content/plugins/lohko'
+  - 'wp-content/plugins/jcore-portti'
+  - 'wp-content/themes/ilme'
 
 allowBuilds:
-    '@parcel/watcher': set this to true or false
-    core-js: set this to true or false
-    core-js-pure: set this to true or false
-    esbuild: set this to true or false
+  '@parcel/watcher': true
+  core-js: true
+  core-js-pure: true
+  esbuild: true
 
 publicHoistPattern:
-    - 'prettier'
+  - 'prettier'
