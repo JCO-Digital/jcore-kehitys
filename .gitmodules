@@ -12,3 +12,9 @@
 [submodule "wp-content/plugins/jcore-portti"]
 	path = wp-content/plugins/jcore-portti
 	url = git@github.com:JCO-Digital/jcore-portti.git
+[submodule "wp-content/plugins/jcore-runner"]
+	path = wp-content/plugins/jcore-runner
+	url = git@github.com:JCO-Digital/jcore-runner.git
+[submodule "wp-content/plugins/jcore-dummy"]
+	path = wp-content/plugins/jcore-dummy
+	url = git@github.com:JCO-Digital/jcore-dummy.git

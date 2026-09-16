@@ -3,3 +3,7 @@
 !/lohko/**
 !/jcore-portti/
 !/jcore-portti/**
+!/jcore-runner/
+!/jcore-runner/**
+!/jcore-dummy/
+!/jcore-dummy/**
