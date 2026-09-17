@@ -18,7 +18,7 @@ jobs:
   deploy-main:
     needs: [build]
     if: github.ref == 'refs/heads/main'
-    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@v4.4.3
+    uses: jco-digital/deploy-wp-action/.github/workflows/server-deploy.yml@main
     with:
       platform: ubuntu-latest
       server_url: kehitys@vs.bojaco.com
