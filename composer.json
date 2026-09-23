@@ -25,7 +25,7 @@
 		}
 	},
 	"require": {
-		"jcore/ydin": "^4",
+		"jcore/ydin": "^5",
 		"jcore/oikeus": "^1",
 		"jcore/ruudukko": "*"
 	},
