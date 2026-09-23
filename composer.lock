@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab7ff1af6e943e47f52328016b2d2051",
+    "content-hash": "9fc4167efd8e9bf121a187403df94762",
     "packages": [
         {
             "name": "composer/installers",
@@ -154,20 +154,20 @@
         },
         {
             "name": "jcore/oikeus",
-            "version": "v1.0.1",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/jcore-oikeus.git",
-                "reference": "ae008f641c1dd5f4fb98e4d5737c635325e3b41d"
+                "reference": "a82a41dc4471ef4d585fc2e2ac27e797ef0f1f97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/jcore-oikeus/zipball/ae008f641c1dd5f4fb98e4d5737c635325e3b41d",
-                "reference": "ae008f641c1dd5f4fb98e4d5737c635325e3b41d",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-oikeus/zipball/a82a41dc4471ef4d585fc2e2ac27e797ef0f1f97",
+                "reference": "a82a41dc4471ef4d585fc2e2ac27e797ef0f1f97",
                 "shasum": ""
             },
             "require": {
-                "jcore/ydin": "^3||^4"
+                "jcore/ydin": "^3.5 || ^4 || ^5"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
@@ -192,12 +192,12 @@
                     "email": "support@jco.fi"
                 }
             ],
-            "description": "JCORE Module Template repository",
+            "description": "JCORE Oikeus: a restricted site_admin role for WordPress.",
             "support": {
                 "issues": "https://github.com/JCO-Digital/jcore-oikeus/issues",
-                "source": "https://github.com/JCO-Digital/jcore-oikeus/tree/v1.0.1"
+                "source": "https://github.com/JCO-Digital/jcore-oikeus/tree/v2.0.0"
             },
-            "time": "2025-11-14T09:21:37+00:00"
+            "time": "2026-09-23T10:21:29+00:00"
         },
         {
             "name": "jcore/ruudukko",
@@ -240,20 +240,20 @@
         },
         {
             "name": "jcore/ydin",
-            "version": "v4.2.1",
+            "version": "v5.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/JCO-Digital/jcore-ydin.git",
-                "reference": "4d8d07cd0e14ebddd1b7343efac08643a484059b"
+                "reference": "899fabf559227943b8593bac04f23f1438559896"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JCO-Digital/jcore-ydin/zipball/4d8d07cd0e14ebddd1b7343efac08643a484059b",
-                "reference": "4d8d07cd0e14ebddd1b7343efac08643a484059b",
+                "url": "https://api.github.com/repos/JCO-Digital/jcore-ydin/zipball/899fabf559227943b8593bac04f23f1438559896",
+                "reference": "899fabf559227943b8593bac04f23f1438559896",
                 "shasum": ""
             },
             "require": {
-                "timber/timber": "^2.2"
+                "timber/timber": "^2"
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
@@ -284,9 +284,9 @@
             "description": "JCORE Ydin (JYDIN), the core module for JCORE",
             "support": {
                 "issues": "https://github.com/JCO-Digital/jcore-ydin/issues",
-                "source": "https://github.com/JCO-Digital/jcore-ydin/tree/v4.2.1"
+                "source": "https://github.com/JCO-Digital/jcore-ydin/tree/v5.0.1"
             },
-            "time": "2026-02-20T12:36:47+00:00"
+            "time": "2026-09-23T09:18:44+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
