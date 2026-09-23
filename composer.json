@@ -27,7 +27,8 @@
 	"require": {
 		"jcore/ydin": "^5",
 		"jcore/oikeus": "^2",
-		"jcore/ruudukko": "*"
+		"jcore/ruudukko": "*",
+		"jcodigital/jcore-dynamic-archive": "*"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-latest",
